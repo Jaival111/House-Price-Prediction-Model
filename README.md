@@ -13,11 +13,12 @@ The goal of this project is to develop a model that can predict house prices bas
 ## Dataset
 
 The dataset contains the following columns:
-- `Square_Feet`: Total area of the house in square feet.
-- `Bedrooms`: Number of bedrooms.
-- `Bathrooms`: Number of bathrooms.
-- `Age`: Age of the house in years.
-- `Location`: Categorical feature representing the location of the house.
+- `Avg. Area Income`: Average area of the house in square feet.
+- `Avg. Area House Age`: Average age of the house in years.
+- `Avg. Area Number of Rooms`: Average number of rooms.
+- `Avg. Area Number of Bedrooms`: Average number of bedrooms.
+- `Area Population` : Population of the area.
+- `Address`: Categorical feature representing the location of the house.
 - `Price`: The target variable, representing the house price.
 
 > Note: Ensure that the data is clean and free from any missing values before running the model.
@@ -45,17 +46,12 @@ To run the house price prediction model, you need to have Python installed on yo
 
 ## Usage
 
-To use the model for house price prediction, follow these steps:
+To use the model for house price prediction, you can refer to the jupyter file:
 
 1. Download and prepare the dataset (if not already included).
-2. Run the `train_model.py` script to train the model:
+2. Run the below script:
     ```bash
-    python train_model.py
-    ```
-
-3. After training, you can use the trained model to make predictions on new data by running:
-    ```bash
-    python predict.py
+    jupyter notebook
     ```
 
 ## Model Evaluation
