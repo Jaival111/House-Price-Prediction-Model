@@ -29,8 +29,8 @@ To run the house price prediction model, you need to have Python installed on yo
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/house-price-prediction.git
-    cd house-price-prediction
+    git clone https://github.com/Jaival111/House-Price-Prediction-Model.git
+    cd House-Price-Prediction-Model
     ```
 
 2. Create a virtual environment (optional but recommended):
